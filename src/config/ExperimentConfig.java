@@ -48,13 +48,13 @@ public class ExperimentConfig {
     /**
      * Méthode statique permettant de charger une configuration depuis un fichier JSON.
      * 
-     * @param filename Chemin vers le fichier JSON à lire
+     * @param file Chemin vers le fichier JSON à lire
      * @return Une instance de ExperimentConfig initialisée avec les données du fichier,
      *         ou null en cas d'erreur.
      */
-    public static ExperimentConfig loadFromFile(String filename) {
+    public static ExperimentConfig loadFromFile(String file) {
         Gson gson = new Gson();
-        try (FileReader reader = new FileReader(filename)) {
+        try (FileReader reader = new FileReader(file)) {
             return gson.fromJson(reader, ExperimentConfig.class);
         } catch (IOException e) {
             e.printStackTrace();

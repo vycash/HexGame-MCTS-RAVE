@@ -261,5 +261,6 @@ RAVE est particulièrement efficace dans les situations suivantes :
 
 ### Cas d'utilisation de MCTS
 MCTS est particulièrement efficace lorsque :
+
 - **Nombre de coups possibles est bas** : MCTS permet d'effectuer plus de simulations sur les nœuds et de converger vers une valeur plus précise et un résultat plus fiable, notamment dans les derniers tours du jeu de Hex.
 
