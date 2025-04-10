@@ -1,0 +1,155 @@
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=15 WIN | J2=15 WIN [Grid=11, b1=100, b2=100, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=30 WIN | J2=0 WIN [Grid=11, b1=100, b2=100, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=3 WIN | J2=27 WIN [Grid=11, b1=100, b2=100, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=19 WIN | J2=11 WIN [Grid=11, b1=100, b2=100, StrategieJ1=MCTS, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=13 WIN | J2=17 WIN [Grid=11, b1=100, b2=100, StrategieJ1=RAVE, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=30 WIN | J2=0 WIN [Grid=11, b1=100, b2=100, StrategieJ1=RAVE, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=100, StrategieJ1=MCTS, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=100 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=16 WIN | J2=14 WIN [Grid=11, b1=100, b2=100, StrategieJ1=MCTS, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=7 WIN | J2=23 WIN [Grid=11, b1=100, b2=250, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=28 WIN | J2=2 WIN [Grid=11, b1=100, b2=250, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=250, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=2 WIN | J2=28 WIN [Grid=11, b1=100, b2=250, StrategieJ1=MCTS, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=4 WIN | J2=26 WIN [Grid=11, b1=100, b2=250, StrategieJ1=RAVE, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=30 WIN | J2=0 WIN [Grid=11, b1=100, b2=250, StrategieJ1=RAVE, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=250, StrategieJ1=MCTS, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=250 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=250, StrategieJ1=MCTS, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=4 WIN | J2=26 WIN [Grid=11, b1=100, b2=500, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=21 WIN | J2=9 WIN [Grid=11, b1=100, b2=500, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=500, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=500, StrategieJ1=MCTS, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=4 WIN | J2=26 WIN [Grid=11, b1=100, b2=500, StrategieJ1=RAVE, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=19 WIN | J2=11 WIN [Grid=11, b1=100, b2=500, StrategieJ1=RAVE, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=500, StrategieJ1=MCTS, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=500 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=500, StrategieJ1=MCTS, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=2 WIN | J2=28 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=5 WIN | J2=25 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=MCTS, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=2 WIN | J2=28 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=7 WIN | J2=23 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=1000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=1000, StrategieJ1=MCTS, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=2 WIN | J2=28 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=2 WIN | J2=28 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=MCTS, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=3 WIN | J2=27 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=2000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=2000, StrategieJ1=MCTS, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=2 WIN | J2=28 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=MCTS, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=3000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=ROUGE | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=3000, StrategieJ1=MCTS, StrategieJ2=MCTS, start=ROUGE]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=5000 | StrategieJ1=RAVE | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=1 WIN | J2=29 WIN [Grid=11, b1=100, b2=5000, StrategieJ1=RAVE, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=5000 | StrategieJ1=RAVE | StrategieJ2=MCTS | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=5000, StrategieJ1=RAVE, StrategieJ2=MCTS, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=5000 | StrategieJ1=MCTS | StrategieJ2=RAVE | Starting=BLEU | nbGames=30
+Bilan => J1=0 WIN | J2=30 WIN [Grid=11, b1=100, b2=5000, StrategieJ1=MCTS, StrategieJ2=RAVE, start=BLEU]
+
+[CONFIG] GridSize=11 | BudgetJ1=100 | BudgetJ2=5000 | StrategieJ1=MCTS | StrategieJ2=MCTS | Starting=BLEU | nbGames=30

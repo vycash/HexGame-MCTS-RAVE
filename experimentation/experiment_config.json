@@ -1,0 +1,8 @@
+{
+  "grid_sizes": [5,6,7,8,11,14],
+  "budget_j1": [100,250,500,1000,2000,3000,5000],
+  "budget_j2": [100,250,500,1000,2000,3000,5000],
+  "starting_players": ["BLEU", "ROUGE"],
+  "strategie": ["RAVE", "MCTS"],
+  "nb_games": 30
+}
