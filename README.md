@@ -11,6 +11,12 @@ le projet mets en place plusieurs fonctionnalitées :
 - Expérimentations parametrables et modulaires
 - Analyse des résultats de l'expérimentation
 
+### DOCUMENTATION :
+
+Vous pouvez trouver la documentation du projet en suivant le lien ci-dessous:
+```
+https://vycash.github.io/HexGame-MCTS-RAVE/javadoc/index.html
+```
 
 ### CONFIGURATION :
 
