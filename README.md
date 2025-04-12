@@ -164,7 +164,7 @@ Mettre à jour les statistiques des nœuds visités pendant la sélection avec l
 
 ## Algorithme
 
-L'illustration suivante montre le fonctionnement des 4 étapes de l'algorithme MCTS pour un état donné (figure à insérer ici en Markdown si nécessaire).  
+L'illustration suivante montre le fonctionnement des 4 étapes de l'algorithme MCTS pour un état donné.  
 ![Texte alternatif](ressources/MCTS_algorithm.png)
 
 
