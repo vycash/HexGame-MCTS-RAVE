@@ -33,12 +33,33 @@ Pour executer le projet sur votre machine vous devez d'bord cloner le projet dan
 git clone https://github.com/vycash/HexGame-MCTS-RAVE.git
 
 ```
-Ensuite :
 
-- executez le script **run.sh** pour le menu principal du jeu et choisir l'option que vous souhaitez (lancer le jeu, tests, expérimentations).
+#### Placez vous ensuite dans le repertoire cloné sur votre machine, il est nommé "HexGame-MCTS-RAVE/"
+
+Ensuite, si vous êtes sur une machine de type Windows, cliquez directement sur le fichier  :
+```
+HexGame.bat
+```
+
+Si vous êtes sur une machine de type Linux, vous avez plusieurs options pour executez le progamme:
+- executer la commande suivante pour jouer en mode graphique :
 ```bash
 
-./run.sh
+java -jar HexGame.jar GRAPHIQUE
+
+```
+
+- executer la commande suivante pour jouer en mode graphique :
+```bash
+
+java -jar HexGame.jar CONSOLE
+
+```
+
+- ou executer le script **files/run.sh** pour le menu principal du jeu et choisir l'option que vous souhaitez (lancer le jeu, tests, expérimentations).
+```bash
+
+./files/run.sh
 
 ```
 
@@ -53,7 +74,7 @@ pour executez l'analyse et le tracage des graphes des résultats des éxpérimen
 Choisissez ensuite la fonctionnalité générer les graphes Python du menu principal du script **run.sh**
 
 ## l'arborescence du projet :
-.
+files/
 ├── experimentation/  
 ├── javadoc/  
 ├── lib/  
@@ -76,6 +97,10 @@ Choisissez ensuite la fonctionnalité générer les graphes Python du menu princ
     ├── simulation/  
     ├── utils/  
     └── vue/  
+ressources/
+HexGame.bat
+HexGame.jar
+README.md
 
 # MCTS
 
