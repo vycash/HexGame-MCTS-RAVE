@@ -13,9 +13,9 @@ le projet mets en place plusieurs fonctionnalitées :
 
 ### DOCUMENTATION :
 
-Vous pouvez trouver la documentation du projet en suivant [Ce lien](https://vycash.github.io/HexGame-MCTS-RAVE/javadoc/index.html) ou coller le lien ci-dessous dans votre navigateur:
+Vous pouvez trouver la documentation du projet en suivant [Ce lien](https://vycash.github.io/HexGame-MCTS-RAVE/files/javadoc/index.html) ou coller le lien ci-dessous dans votre navigateur:
 ```
-https://vycash.github.io/HexGame-MCTS-RAVE/javadoc/index.html
+https://vycash.github.io/HexGame-MCTS-RAVE/files/javadoc/index.html
 ```
 
 ### CONFIGURATION :
