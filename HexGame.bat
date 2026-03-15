@@ -1,3 +1,2 @@
 @echo off
-java -jar HexGame.jar GRAPHIQUE
-pause
+powershell -NoProfile -ExecutionPolicy Bypass -File "files/run.ps1"

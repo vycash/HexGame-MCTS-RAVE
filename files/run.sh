@@ -2,9 +2,9 @@
 
 # Variables globales
 SRC_DIR="src"
-BUILD_DIR="build"
-TEST_DIR="testUnitaire"
-LIB_DIR="lib"
+BUILD_DIR="build/"
+TEST_DIR="testUnitaire/"
+LIB_DIR="lib/"
 DOC_DIR="javadoc"
 
 # La classe principale (doit pointer sur votre nouveau "Main" unique)
@@ -28,7 +28,8 @@ menu_principal() {
     echo "5. Re-Compiler le projet"
     echo "6. Lancer une expérimentation"
     echo "7. Générer le graphe à partir des résultats CSV"
-    echo "8. Quitter"
+    echo "8. Créer le JAR"
+    echo "9. Quitter"
     echo -n "Choisissez une option : "
 }
 
@@ -82,6 +83,11 @@ compiler_projet() {
         
         echo "Erreur lors de la compilation."
     fi
+}
+
+make_jar() {
+    compiler_projet
+    jar cfm ../HexGame.jar MANIFEST.MF -C build .
 }
 
 # Fonction pour exécuter les tests unitaires en appelant RunTest
@@ -191,7 +197,8 @@ while true; do
     5) compiler_projet ;;
     6) lancer_experimentation ;;
     7) generer_graphe_python ;;
-    8)   echo "Au revoir !"; exit 0 ;;
+    8) make_jar ;;
+    9)   echo "Au revoir !"; exit 0 ;;
     *)   echo "Option invalide. Veuillez réessayer." ;;
     esac
 done

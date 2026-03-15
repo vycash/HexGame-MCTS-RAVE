@@ -141,7 +141,7 @@ public class MCTS {
         }
         
         if ( experimentation == false ){
-            afficherTousLesCoups(noeud);
+            //afficherTousLesCoups(noeud);
             System.out.println("\nBest move : " + meilleur + " avec "+iterationBudget+" itérations");
         }
         return meilleur.getMove();

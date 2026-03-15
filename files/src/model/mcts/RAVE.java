@@ -137,7 +137,7 @@ public class RAVE extends MCTS {
         }
         
         if ( this.isExperimentation() == false ){
-            afficherTousLesCoups(noeud);
+            //afficherTousLesCoups(noeud);
             System.out.println("\nBest move : " + meilleur.toStringRave() + " avec " + this.getIterationBudget() + " itérations");
         }
         return meilleur.getMove();
