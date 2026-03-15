@@ -4,6 +4,7 @@
 This project is an implementation of the HexGame in Java using the MCTS (Monte Carlo Tree Search) algorithm for the AI player, along with RAVE optimization.
 
 ![Text](ressources/hexGame.png)
+![Text](ressources/hexgame_console_2.png)
 ![Text](ressources/hexgame_graphique_end.png)
 
 

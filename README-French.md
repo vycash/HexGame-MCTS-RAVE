@@ -4,6 +4,7 @@ Ce projet est l'implémentation du jeu HexGame en Java avec l'algorithme MCTS (M
 
 
 ![Text](ressources/hexGame.png)
+![Text](ressources/hexgame_console_2.png)
 ![Text](ressources/hexgame_graphique_end.png)
 
 
